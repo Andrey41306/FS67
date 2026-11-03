@@ -1,0 +1,55 @@
+/* *{
+    margin:0;
+}*/
+
+
+.header, .footer{
+    height:50px;
+    width:70%;
+    margin: 0 auto; /*по середине*/
+}
+
+.header{
+    background-color: violet;
+    position: relative;
+    top:0px;
+    left:90px;
+}
+
+.footer{
+    background-color: darkgoldenrod;
+    position: fixed;
+    bottom: 0px;
+    left:15%;
+    
+}
+
+.main{
+    height:500px;
+    background-color: lightblue;
+    position:relative;
+}
+
+.div1, .div2, .div3{
+    height: 100px;
+    width: 50%;
+    position:absolute;
+}
+
+.div1{
+    top: 0px;
+    right:0;
+    background-color: yellow;
+}
+
+.div2{
+    background-color: blue;
+    right:0;
+    top:100px;
+}
+
+.div3{
+    background-color: green;
+    right:0;
+    top: 200px;
+}
