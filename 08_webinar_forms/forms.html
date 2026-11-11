@@ -8,5 +8,36 @@
 <body>
     <h1>Запись на мероприятие</h1>
     <p>Пожалуйста, заполните форму ниже, чтобы зарегистрироваться на наше мероприятие.</p>
+    <form>
+        <label for="your-name">Ваше имя:</label> 
+        <input 
+        type="text" 
+        id="your-name" 
+        placeholder="Ваше имя" 
+        name="name"
+        value="Иван Иванов" 
+        required>
+        <label for="your-mail">Email:</label>
+        <input type="email" id="your-mail" placeholder="Ваш email" name="email" required>  
+        <button type="submit">Зарегистрироваться</button>
+        <!--label for="your-email">Ваш email:</label -->
+        <!--input type="email" id="your-email" placeholder="Ваш email" name="email" required-->
+        <p>Форма участия: онлайн/офлайн</p>
+        <input 
+        type="radio" 
+        id="online" 
+        name="participation" 
+        value="online" >
+        <label for="online">Oнлайн</label>
+        <input 
+        type="radio" 
+        id="offline" 
+        name="participation" 
+        value="offline" >
+        <label for="offline">Oфлайн</label>
+    
+    
+    
+    </form>
 </body>
 </html>

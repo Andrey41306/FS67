@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            padding: 20px;
+            margin: 50px auto;
+            width: 500px;
+            
+        }
+        fieldset {
+            border: 1px solid #555 ;
+            position: relative;
+            border-radius: 5px;
+        }
+        legend {
+            font-family: arial, sans-serif;  
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+          
+        }
+             
+        #t_string {
+            font-family: arial, sans-serif;
+            font-size: 1.2em;
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 0.5em;
+            box-sizing: border-box;
+            border:0;
+            outline:none;
+        }
+
+        #b_send {
+            font-family: arial, sans-serif;
+            font-size: 1.2em;
+            padding: 0.5em 1em;
+            display: block;
+            margin-left: auto;
+        }
+        
+
+
+    </style>
+    <title>Search</title>
+</head>
+<body>
+    <form name="form_search" action="https://google.com/search" method="get">
+        <fieldset>
+            <legend>GOOGLE</legend>
+            <div class="form_search"></div>
+                <input type="text" name="q" id="t_string" placeholder="Enter text here" required>
+                <input type="submit" id="b_send" value="Search">
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
