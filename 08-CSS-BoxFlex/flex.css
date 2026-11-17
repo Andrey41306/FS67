@@ -1,28 +1,41 @@
 .flex-container{
-    width:900px;
+    width:600px;
     height: 400px;
     background-color: pink;
     margin:0 auto;
     display:flex;
+  
     
 }
+
+
+/*width - flex-basis - max-width*/
 .item{
+    max-width: 230;
+    flex-basis: 240;
     height: 150px;
     width: 250px;
     background-color: blue;
     font-size: 3rem;
-    text-align: center;
+    /* text-align: center; */
     color: whitesmoke;
+    flex-shrink: 0;
 }
 
 .red{
     background-color: red;
+    /*flex-shrink: 1;*/
+    /*flex-grow: 1;*/
 }
 
 .green{
     background-color: green;
+    /*flex-grow: 2;*/
+    /* flex-shrink: 2; */
 }   
 
 .blue{
     background-color: blue;
+    /*flex-grow: 3;*/
+    /* flex-shrink: 3; */
 }   
