@@ -22,12 +22,12 @@ body {
 
 
 .header {
-    font-family: "Monotype Corsiva", cursive;
+   font-family: "Monotype Corsiva",cursive;
     background-image: url('../images/coffee-bgnd.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-size: 3rem;
+    font-size:5rem;
     
     color: var(--color-font-header);
 
@@ -35,7 +35,7 @@ body {
 
 
 .caption {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     background-color: var(--color-item)
