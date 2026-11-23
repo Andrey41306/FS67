@@ -1,0 +1,42 @@
+.content {
+    margin: 0;
+    padding: 50px;
+    background-color: rgba(255, 162, 0, 0.03);
+}
+
+.header{
+    margin:0;
+    background-image: url("img/top.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family:  monospace, serif, sans-serif,;
+    font-size: 3.5rem;
+    font-stile: italic;
+    text-align: right;
+    color: #dabdbd
+}
+.cover-img{
+    width: 100%;
+    height: auto;
+}
+.header-text{
+    margin-right:50px;
+    color:#271616 ;
+}
+.caption {
+    font-family: serif, sans-serif, monospace;
+    font-size: 3rem;
+    color: #271616
+}
+
+.description{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #211717
+}
+
+a{
+    display: block;
+    font-stile: italic;
+    color: #683737
+}

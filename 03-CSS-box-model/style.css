@@ -1,0 +1,19 @@
+body{
+    margin: 0
+}
+.outer1{
+    margin-top: 1px;
+    height: 200px;
+    background-color: blue;
+}
+.outer2{
+    height: 200px;
+    background-color: green;
+}
+.inner1{
+    height: 50px;
+    width: 80%;
+    background-color: red;
+    padding: 30px 20px;
+    margin-top: 15px;
+}
