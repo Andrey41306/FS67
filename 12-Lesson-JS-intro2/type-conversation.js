@@ -1,0 +1,18 @@
+let a = 10;
+console.log(typeof a);
+a = '' + a; // String(a);
+console.log(typeof a);
+a = '42';
+console.log(typeof a);
+a = +a; // Number(a);
+console.log(typeof a);
+console.log(a);
+let res = (true + false) / '5' - null;
+console.log(res);
+res = ('5' + +false) / true - null;
+console.log(res);
+a = 'false';
+console.log(typeof a);
+a = !!a; // Boolean(a);
+console.log(typeof a);
+console.log(a);
