@@ -9,8 +9,8 @@ console.log(res ? 'lucky' : 'not lucky'); // should print not lucky
 function sumDigits(n) {
     let res = 0;
     while(n>0) {
-        res += n % 10;
-        n=((n-(n%10))/10);
+        res += n % 10; //add last digit
+        n=((n-(n%10))/10); //brit mila
         }
     return res;
 }
