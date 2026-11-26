@@ -7,31 +7,28 @@ console.log(res ? 'lucky' : 'not lucky'); // should print not lucky
 
 
 function sumDigits(n) {
-    // TODO returned sum of digits
     let res = 0;
-    for (let i = 0; i < 10; i++) {
-        res += getDigitFromNumber(n, i);
-    }
+    while(n>0) {
+        res += n % 10;
+        n=((n-(n%10))/10);
+        }
     return res;
 }
 
 function luckuNumber(num) {
-    // TODO returned true if num is lucky and false otherwise
-    // lucky number if sum of odd position is equal to sum of even position digits
     let chet = 0;
     let nechet = 0;
-
-    for (let i = 0; i < 10; i += 2) {
-        nechet += getDigitFromNumber(num, i);
-        chet += getDigitFromNumber(num, i + 1);
-    }
+    while(num>0){
+        chet += num % 10;
+        num=((num-(num%10))/10);
+        nechet += num % 10;
+        num=((num-(num%10))/10);
+        }
 
     return (chet===nechet);
 }
 
-function getDigitFromNumber(num, pos) {
-    return (((num - (num % (10 ** (pos)))) / (10 ** pos)) % 10)
-}
+
 
 
 
