@@ -4,7 +4,6 @@ bubbleSort(arr);
 printArray(arr); // 0, 1, 1, 2, 2, 2, 4, 5, 9, 9
 
 
-
 function bubbleSort(arr) {
     let i,j;
     len = arr.length-1;
