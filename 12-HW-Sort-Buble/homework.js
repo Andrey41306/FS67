@@ -6,7 +6,7 @@ printArray(arr); // 0, 1, 1, 2, 2, 2, 4, 5, 9, 9
 
 function bubbleSort(arr) {
     let i,j;
-    len = arr.length-1;
+    let len = arr.length-1;
     for (i=0; i<len; i++ ){
         for(j=0;j<len-i;j++){
             if (arr[j] > arr[j+1]){
